@@ -64,17 +64,16 @@ body {
 .tabContainer .newsElem {
     color: #999;
     font-size: 2rem;
+    line-height: 1.4rem;
 }
 .tabContainer .newsElem a {
     color: #333;
     text-decoration: none;
     font-size: 1.2rem;
 }
-.tabContainer .newsElem a:hover {
-    text-decoration: underline
-}
 .tabContainer .newsElem p {
     font-size: 0.9rem;
+    color: #999;
 }
 .tabContainer .newsElem h3 {
 display: inline
