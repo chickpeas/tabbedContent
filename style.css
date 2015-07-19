@@ -1,0 +1,88 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+    font-family: Georgia, serif;
+}
+.zone-news {
+    border: 0px solid #d61d00
+}
+.zone-travel {
+    border: 0px solid #066EC9
+}
+.zone-sport {
+    border: 0px solid #008000 
+}
+
+.tabContainer {
+    width: auto;
+    margin: 10px;
+}
+
+.tabContainer.tabActive .tabPanel{
+    display: none;
+}
+.tabContainer.tabActive .tabPanel.panelSelected{
+    display: block;
+}
+
+.tabContainer .tabList {
+    overflow: auto;
+    list-style: none;
+}
+.tabContainer .tabList .tabSelected {
+    border-width: 0 0 3px 0
+}
+.tabContainer .tabPanel {
+    padding: 10px 20px 20px 20px;
+}
+.tabContainer .tabPanel ol {
+    padding-left: 13px;
+}
+.tabContainer .tabElem {
+    float: left;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+.tabContainer .newsElem {
+    color: #999;
+    font-size: 2rem;
+}
+.tabContainer .newsElem a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.tabContainer .newsElem a:hover {
+    text-decoration: underline
+}
+.tabContainer .newsElem p {
+    font-size: 0.9rem;
+}
+.tabContainer .newsElem h3 {
+display: inline
+}
+
+@media (min-width: 600px) {
+  .tabContainer {
+    width: 400px;
+    margin: 30px;
+  }
+}
